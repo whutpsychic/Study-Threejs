@@ -16,7 +16,10 @@ const router = createRouter({
     // 画线
     { path: '/base-line', component: () => import('../views/BaseLine.vue') },
     // 文字
-    { path: '/base-text', component: () => import('../views/BaseText.vue') }
+    { path: '/base-text', component: () => import('../views/BaseText.vue') },
+    { path: '/base-text0', component: () => import('../views/BaseText0.vue') },
+    // 导入模型
+    { path: '/insert-model', component: () => import('../views/InsertModel.vue') }
     // ================================== 进阶篇 ==================================
   ]
 })

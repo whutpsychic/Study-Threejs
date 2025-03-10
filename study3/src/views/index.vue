@@ -3,7 +3,9 @@
   <main>
     <div><el-button type="success" @click="goto('/base')">第一个程序</el-button></div>
     <div><el-button type="success" @click="goto('/base-line')">画线</el-button></div>
-    <div><el-button type="primary" @click="goto('/base-text')">创建文字</el-button></div>
+    <div><el-button type="success" @click="goto('/base-text')">创建文字</el-button></div>
+    <div><el-button type="success" @click="goto('/base-text0')">创建文字（复杂）</el-button></div>
+    <div><el-button type="primary" @click="goto('/insert-model')">导入模型</el-button></div>
   </main>
 </template>
 
